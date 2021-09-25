@@ -11,20 +11,20 @@ export class ApiService {
   constructor(private http: HttpClient) {
   }
 
-  /* ---------------------------------------- Authentication and User account API ---------------------------------------- */
+  /* --------------------------- Authentication and User account API Calls ---------------------------------- */
   newUserSession(idToken: string): Observable<User> {
     const options = {
       headers: new HttpHeaders({ 'Authorization': `Bearer ${idToken}` }),
     };
-
     return this.http.get<User>(`${environment.apiUrl}/api/user/session-login`, options);
   }
+
 
   endUserSession(): Observable<any> {
     return this.http.post<any>(`${environment.apiUrl}/api/user/session-logout`, '');
   }
 
-  /* ---------------------------------------- Messaging API ---------------------------------------- */
+  /* ----------------------------------- Example Messaging API Calls ------------------------------------ */
   getMessage(message: string) {
     return this.http.get<BasicMessage>(`${environment.apiUrl}/api/public/${message}`);
   }
@@ -32,13 +32,9 @@ export class ApiService {
   getUserMessage(message: string) {
     return this.http.get<MessagePacket>(`${environment.apiUrl}/api/user/message/${message}`);
   }
+
   secureMessage() {
     return this.http.get<BasicMessage>(`${environment.apiUrl}/api/user/secure-message`);
-  }
-
-  /* ---------------------------------------- File Conversion ---------------------------------------- */
-  convertImage(srcFile: any, targetFormat: string): Observable<any> {
-    return this.http.post<any>(`${environment.apiUrl}/api/file/convert-image/${targetFormat}`, srcFile);
   }
 
 }
