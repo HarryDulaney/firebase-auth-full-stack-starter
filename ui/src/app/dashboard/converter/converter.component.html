@@ -1,0 +1,39 @@
+<div class="container-fluid" id="converterContainer">
+    <div class="card card-primary">
+        <div class="card-header text-center text-capitalize">
+            <fa-icon [icon]="['fas','file']"></fa-icon>
+            <span class="ms-1">Converter</span>
+
+        </div>
+        <div class="card-body">
+            <form [formGroup]="convertForm" (ngSubmit)="convert($event)">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col float-start">
+                            <label for="sourceFile"><b>Source File</b></label>
+                            <p class="card-text text-lg-center">Select one of the following to convert: <br> jpg, png,
+                                gif, bmp, docx,
+                                xlsx, pdf</p>
+                            <input type="file" formControlName="inputFile" accept=".png,.jpg,.jpeg,.gif,.bmp"
+                                id="sourceFile" class="form-control" oninput="validateInputFile($event)" #sourceFile />
+                        </div>
+                        <div class="col float-end">
+                            <label for="targetFile"><b>Target File</b></label>
+                            <select formControlName="outputFile" id="targetFile" class="form-control">
+                                <option [defaultSelected]="true">Choose Target File Format</option>
+                                <option *ngFor="let item of fileTypes" [value]="item">{{item}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-center">
+                            <button class="btn btn-primary mt-2" type="submit"
+                                [disabled]="!sourceFileValid && !convertForm.valid">Convert</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
