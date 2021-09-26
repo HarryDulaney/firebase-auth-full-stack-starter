@@ -15,7 +15,6 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class CookieUtils {
 
-
     final HttpServletRequest httpServletRequest;
     final HttpServletResponse httpServletResponse;
 

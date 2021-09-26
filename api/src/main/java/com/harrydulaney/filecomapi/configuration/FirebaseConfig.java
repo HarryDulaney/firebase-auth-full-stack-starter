@@ -4,7 +4,6 @@ import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.google.firebase.database.FirebaseDatabase;
-import com.harrydulaney.filecomapi.service.StorageService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -28,12 +27,6 @@ public class FirebaseConfig {
     @Value("${firebase.config}")
     private String config;
 
-    private final StorageService storageService;
-
-    public FirebaseConfig(StorageService storageService) {
-        this.storageService = storageService;
-    }
-
     @Primary
     @Bean
     public void initFirebase() {
@@ -53,13 +46,8 @@ public class FirebaseConfig {
                 LOG.info("FirebaseApp ------------------------------ Firebase services initialized for Backend.");
             }
             FirebaseDatabase.getInstance().setPersistenceEnabled(true);
-            setupStorageBucket();
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    void setupStorageBucket() {
-        storageService.setStorageBucket(FirebaseApp.getInstance().getOptions().getStorageBucket());
     }
 }
