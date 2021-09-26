@@ -1,6 +1,6 @@
-package com.harrydulaney.filecomapi.configuration;
+package com.harrydulaney.firebaseauthstarter.configuration;
 
-import com.harrydulaney.filecomapi.model.UserPreferences;
+import com.harrydulaney.firebaseauthstarter.model.UserPreferences;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;

@@ -1,13 +1,8 @@
-package com.harrydulaney.filecomapi.security.model;
+package com.harrydulaney.firebaseauthstarter.security.model;
 
 import lombok.Data;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 @Data
 public class UserDto implements Serializable {

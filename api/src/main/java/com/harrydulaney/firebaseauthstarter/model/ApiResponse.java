@@ -1,4 +1,4 @@
-package com.harrydulaney.filecomapi.model;
+package com.harrydulaney.firebaseauthstarter.model;
 
 public class ApiResponse<T> {
 

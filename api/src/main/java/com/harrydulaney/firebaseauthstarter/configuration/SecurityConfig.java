@@ -1,7 +1,7 @@
-package com.harrydulaney.filecomapi.configuration;
+package com.harrydulaney.firebaseauthstarter.configuration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.harrydulaney.filecomapi.security.TokenAuthenticationFilter;
+import com.harrydulaney.firebaseauthstarter.security.TokenAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

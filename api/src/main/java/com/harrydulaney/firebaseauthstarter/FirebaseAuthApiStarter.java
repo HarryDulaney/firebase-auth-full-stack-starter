@@ -1,4 +1,4 @@
-package com.harrydulaney.filecomapi;
+package com.harrydulaney.firebaseauthstarter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

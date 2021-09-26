@@ -1,4 +1,4 @@
-package com.harrydulaney.filecomapi.utils;
+package com.harrydulaney.firebaseauthstarter.utils;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthException;

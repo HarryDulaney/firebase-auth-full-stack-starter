@@ -1,12 +1,12 @@
-package com.harrydulaney.filecomapi.security;
+package com.harrydulaney.firebaseauthstarter.security;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.auth.FirebaseToken;
-import com.harrydulaney.filecomapi.security.model.Credentials;
-import com.harrydulaney.filecomapi.security.model.UserDto;
-import com.harrydulaney.filecomapi.utils.Constants;
-import com.harrydulaney.filecomapi.utils.CookieUtils;
+import com.harrydulaney.firebaseauthstarter.security.model.Credentials;
+import com.harrydulaney.firebaseauthstarter.security.model.UserDto;
+import com.harrydulaney.firebaseauthstarter.utils.Constants;
+import com.harrydulaney.firebaseauthstarter.utils.CookieUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

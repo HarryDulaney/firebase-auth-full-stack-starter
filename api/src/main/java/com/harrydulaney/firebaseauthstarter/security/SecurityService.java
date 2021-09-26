@@ -1,12 +1,9 @@
-package com.harrydulaney.filecomapi.security;
+package com.harrydulaney.firebaseauthstarter.security;
 
 
-import com.google.api.Http;
-import com.harrydulaney.filecomapi.configuration.FirebaseConfig;
-import com.harrydulaney.filecomapi.model.ApiResponse;
-import com.harrydulaney.filecomapi.security.model.Credentials;
-import com.harrydulaney.filecomapi.utils.Constants;
-import com.harrydulaney.filecomapi.utils.CookieUtils;
+import com.harrydulaney.firebaseauthstarter.security.model.Credentials;
+import com.harrydulaney.firebaseauthstarter.utils.Constants;
+import com.harrydulaney.firebaseauthstarter.utils.CookieUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContext;
@@ -16,7 +13,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
-import java.net.http.HttpResponse;
 import java.util.HashMap;
 import java.util.Map;
 

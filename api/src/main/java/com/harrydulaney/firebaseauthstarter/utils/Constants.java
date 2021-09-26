@@ -1,4 +1,4 @@
-package com.harrydulaney.filecomapi.utils;
+package com.harrydulaney.firebaseauthstarter.utils;
 
 
 public class Constants {

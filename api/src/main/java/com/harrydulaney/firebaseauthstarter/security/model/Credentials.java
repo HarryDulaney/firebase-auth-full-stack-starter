@@ -1,4 +1,4 @@
-package com.harrydulaney.filecomapi.security.model;
+package com.harrydulaney.firebaseauthstarter.security.model;
 
 
 import com.google.firebase.auth.FirebaseToken;

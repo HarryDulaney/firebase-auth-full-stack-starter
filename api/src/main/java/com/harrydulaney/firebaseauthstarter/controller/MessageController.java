@@ -1,4 +1,4 @@
-package com.harrydulaney.filecomapi.controller;
+package com.harrydulaney.firebaseauthstarter.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
