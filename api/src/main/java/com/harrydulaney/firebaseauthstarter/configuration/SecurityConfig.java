@@ -74,14 +74,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             throws Exception {
         httpSecurity
                 .cors().configurationSource(corsConfigurationSource()).and().csrf().disable()
-                // disabled for running on local, csrf should be enabled in prod deployments
-//                .csrf(csrf -> csrf.csrfTokenRepository(csrfTokenRepository()))
                 .formLogin().disable()
                 .httpBasic().disable()
                 .exceptionHandling().authenticationEntryPoint(restAuthenticationEntryPoint())
                 .and().authorizeRequests()
                 .antMatchers("/api/public/**").permitAll()
-                .antMatchers(HttpMethod.OPTIONS,"/**").permitAll().anyRequest().authenticated().and()
+                .antMatchers(HttpMethod.OPTIONS, "/**").permitAll().anyRequest().authenticated().and()
                 .addFilterBefore(tokenAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
     }

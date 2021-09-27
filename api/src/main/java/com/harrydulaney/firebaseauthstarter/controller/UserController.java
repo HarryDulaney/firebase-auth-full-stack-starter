@@ -39,7 +39,6 @@ public class UserController {
         return model;
     }
 
-
     @PostMapping(value = "session-logout")
     public ResponseEntity<Map<String, String>> endSession() {
         return securityService.handleSignOut();
