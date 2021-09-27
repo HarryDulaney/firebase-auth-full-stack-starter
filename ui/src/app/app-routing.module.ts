@@ -7,11 +7,9 @@ import { RegisterComponent } from './home/register/register.component';
 import { SignInComponent } from './home/sign-in/sign-in.component';
 import { UsermanageComponent } from './home/user-management/usermanage.component';
 import { PageNotFoundComponent } from './layout/page-not-found/page-not-found.component';
-import { PreferencesComponent } from './preferences/preferences.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
-  { path: 'preferences', component: PreferencesComponent, canActivate: [AuthGuard] },
   { path: 'sign-in', component: SignInComponent },
   { path: 'register', component: RegisterComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
