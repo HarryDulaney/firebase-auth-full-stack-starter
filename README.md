@@ -23,8 +23,7 @@
   <h3 align="center">Firebase Authentication Full Stack Angular and Java Starter Project
 </h3>
   <p align="center">
-    project_description
-    <br />
+  This is a template project for building a full stack web app with Firebase Authentication.<br/>
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -122,10 +121,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-#### This template repo is here to help you save time bootstraping full stack Firebase Authentication. 
-### _The project structure is this:_
-- 'ui' folder contains the frontend Angular application.
-- 'api' folder contains the backend Spring Boot Java application.
+
 
 
 See the [open issues](https://github.com/HarryDulaney/firebase-auth-full-stack-starter/issues) for a list of proposed features (and known issues).
