@@ -10,7 +10,7 @@ import { AuthService } from 'src/app/auth/auth.service';
 export class NavComponent implements OnInit {
 
   public activeRouteId: string | undefined;
-  readonly aboutPageLink: string = "https://github.com/HarryDulaney/file-commander-web-api";
+  readonly aboutPageLink: string = "https://github.com/HarryDulaney/firebase-auth-full-stack-starter";
 
   constructor(
     public router: Router,

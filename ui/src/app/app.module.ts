@@ -24,7 +24,6 @@ import {
 } from '@costlydeveloper/ngx-awesome-popup';
 import { AlertService } from './services/alert.service';
 import { AuthService } from './auth/auth.service';
-import { PreferencesComponent } from './preferences/preferences.component';
 import { UserService } from './services/user.service';
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -32,7 +31,6 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpOutInterceptor } from './shared/http-interceptor';
-import { ConverterComponent } from './dashboard/converter/converter.component';
 import { UsermanageComponent } from './home/user-management/usermanage.component';
 
 
@@ -47,8 +45,6 @@ import { UsermanageComponent } from './home/user-management/usermanage.component
     NavComponent,
     FooterComponent,
     PageNotFoundComponent,
-    PreferencesComponent,
-    ConverterComponent,
     UsermanageComponent,
   ],
   imports: [
@@ -58,8 +54,8 @@ import { UsermanageComponent } from './home/user-management/usermanage.component
     AppRoutingModule,
     FontAwesomeModule,
     ReactiveFormsModule,
-    NgxAwesomePopupModule.forRoot(), 
-    DialogConfigModule.forRoot(), 
+    NgxAwesomePopupModule.forRoot(),
+    DialogConfigModule.forRoot(),
     ConfirmBoxConfigModule.forRoot(),
     ToastNotificationConfigModule.forRoot(),
     AngularFireAuthModule,
