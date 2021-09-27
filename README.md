@@ -1,11 +1,3 @@
-# firebase-auth-full-stack-starter
-## Firebase Authentication Full Stack Angular and Java Starter Project
-
-#### This is template repo is here to help you save time bootstraping full stack Firebase Authentication. 
-### _The project structure is this:_
-- 'ui' folder contains the frontend Angular application.
-- 'api' folder contains, you guessed it, the backend Spring Boot Java application.
-
 
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -21,32 +13,15 @@
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/HarryDulaney/firebase-auth-full-stack-starter/master/ui/src/assets/favicon_io/android-chrome-512x512.png" alt="Logo" width="200" height="200">
   </a>
-
-  <h3 align="center">project_title</h3>
-
+  <h3 align="center">Firebase Authentication Full Stack Angular and Java Starter Project
+</h3>
   <p align="center">
     project_description
     <br />
@@ -146,6 +121,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
+
+#### This template repo is here to help you save time bootstraping full stack Firebase Authentication. 
+### _The project structure is this:_
+- 'ui' folder contains the frontend Angular application.
+- 'api' folder contains the backend Spring Boot Java application.
+
 
 See the [open issues](https://github.com/HarryDulaney/firebase-auth-full-stack-starter/issues) for a list of proposed features (and known issues).
 
