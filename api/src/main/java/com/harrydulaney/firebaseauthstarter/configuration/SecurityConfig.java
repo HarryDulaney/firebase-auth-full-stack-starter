@@ -74,6 +74,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             throws Exception {
         httpSecurity
                 .cors().configurationSource(corsConfigurationSource()).and().csrf().disable()
+                // disabled for running on local, csrf should be enabled in prod deployments
 //                .csrf(csrf -> csrf.csrfTokenRepository(csrfTokenRepository()))
                 .formLogin().disable()
                 .httpBasic().disable()
