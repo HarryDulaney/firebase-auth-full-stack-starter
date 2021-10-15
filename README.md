@@ -24,7 +24,7 @@
 </h3>
   <p align="center">
   This is a template project for building a full stack web app with Firebase Authentication.<br/>
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+<!--     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
@@ -36,9 +36,9 @@
 </p>
 
 
-
+ -->
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<!-- <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
@@ -62,11 +62,11 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-
+ -->
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -82,9 +82,9 @@ Here's a blank template to get started:
 * []()
 
 
-
+ -->
 <!-- GETTING STARTED -->
-## Getting Started
+<!-- ## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
@@ -108,28 +108,28 @@ This is an example of how to list things you need to use the software and how to
    ```
 
 
-
+ -->
 <!-- USAGE EXAMPLES -->
-## Usage
+<!-- ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+  
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-
+ -->
 
 <!-- ROADMAP -->
-## Roadmap
+<!-- ## Roadmap
 
 
 
 
 See the [open issues](https://github.com/HarryDulaney/firebase-auth-full-stack-starter/issues) for a list of proposed features (and known issues).
-
+ -->
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+<!-- ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -138,16 +138,16 @@ Contributions are what make the open source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
+ -->
 
 
 <!-- LICENSE -->
-## License
+<!-- ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
+ -->
 <!-- CONTACT -->
 ## Contact
 
@@ -158,15 +158,15 @@ Project Link: [https://github.com/HarryDulaney/firebase-auth-full-stack-starter]
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+<!-- ## Acknowledgements
 
 * []()
 * []()
-* []()
+* []() -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
+<!-- [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
 [forks-url]: https://github.com/github_username/repo_name/network/members
@@ -177,4 +177,4 @@ Project Link: [https://github.com/HarryDulaney/firebase-auth-full-stack-starter]
 [license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://linkedin.com/in/github_username -->
